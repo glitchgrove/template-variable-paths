@@ -1,0 +1,4 @@
+# Template Configuration
+
+[variables]
+project_name = { type = "string", description = "Project name (used in paths)", pattern = "^[a-zA-Z][a-zA-Z0-9_]*$" }
